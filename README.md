@@ -23,7 +23,7 @@ cd khedmalink-backend
 
 - [Java 21+](https://adoptopenjdk.net/)
 - [Maven](https://maven.apache.org/install.html)
-- ([MySQL](https://www.mysql.com/) make sure to use xampp
+- [MySQL](https://www.mysql.com/) make sure to use xampp
 
 ### 3. Configure the Application
 
