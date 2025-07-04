@@ -32,7 +32,7 @@ public class UserController {
         return this.userService.login(re);
     }
 
-    @PutMapping("/update")
+    @PostMapping("/update")
     public ResponseEntity<?> updateUser(@RequestBody UpdateUser re) {
         return this.userService.updateUser(re);
     }

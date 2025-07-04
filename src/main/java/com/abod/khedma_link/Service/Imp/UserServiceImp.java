@@ -85,8 +85,11 @@ public class UserServiceImp implements UserService {
                 default:
                     return new ResponseEntity<>("INVALID FIELD NAME", HttpStatus.BAD_REQUEST);
             }
-            if (status == 1)
-                return new ResponseEntity<>("Account has been updated", HttpStatus.OK);
+            if (status == 1){
+                System.out.println(status);
+                return ResponseEntity.badRequest().body(1);
+            }
+
         } catch (Exception e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
