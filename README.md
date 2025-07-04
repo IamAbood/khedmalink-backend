@@ -21,7 +21,7 @@ cd khedmalink-backend
 
 ### 2. Prerequisites
 
-- [Java 17+](https://adoptopenjdk.net/)
+- [Java 21+](https://adoptopenjdk.net/)
 - [Maven](https://maven.apache.org/install.html)
 - (Optional) [MySQL](https://www.mysql.com/) or your preferred database
 
